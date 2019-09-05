@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Assignment</string>
+
+    <string name="tag">tag</string>
+    <string name="like">like</string>
+    <string name="comments">comments</string>
+
+
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_product">
+        <ImageView
+            android:id="@+id/image_picture"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/black"/>
+        <ImageView
+            android:id="@+id/image_user"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:src="@drawable/gradient_bg"/>
+        <ImageView
+            android:id="@+id/image_like"
+            android:layout_width="@dimen/big_padding"
+            android:layout_height="@dimen/big_padding"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:src="@drawable/like_fill" />
+
+        <TextView
+            android:id="@+id/text_name"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/user_name_size"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/activity_small_margin"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_title_size" />
+
+        <TextView
+            android:id="@+id/text_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@id/image_like"
+            android:layout_marginVertical="@dimen/activity_horizontal_margin"
+            android:text="@string/like"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/text_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@id/text_comments"
+            android:layout_marginVertical="@dimen/activity_horizontal_margin"
+            android:text="@string/comments"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/text_comments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:text="@string/comments"
+            android:textColor="@color/white" />
+</RelativeLayout>
